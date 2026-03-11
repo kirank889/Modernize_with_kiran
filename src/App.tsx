@@ -19,9 +19,14 @@ const Navbar = () => {
           <a href="#projects" className="hover:text-teal-400 transition-colors">Projects</a>
           <a href="#contact" className="hover:text-teal-400 transition-colors">Contact</a>
         </div>
-        <a href="#contact" className="px-5 py-2.5 bg-teal-500/10 text-teal-400 hover:bg-teal-500 hover:text-slate-950 rounded-lg font-semibold transition-colors border border-teal-500/20">
-          Hire Me
-        </a>
+        <motion.a 
+          href="#contact" 
+          animate={{ y: [0, -4, 0] }}
+          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          className="px-5 py-2.5 bg-teal-500 text-slate-950 hover:bg-teal-400 rounded-full font-bold transition-colors shadow-[0_0_15px_rgba(20,184,166,0.4)] hover:shadow-[0_0_25px_rgba(20,184,166,0.6)] flex items-center gap-2"
+        >
+          <span className="text-lg leading-none">⚡</span> Hire Me
+        </motion.a>
       </div>
     </nav>
   );
@@ -82,7 +87,7 @@ const Hero = () => {
               {/* Note: Using a placeholder that matches the attached professional photo. You can replace the src with your actual image path (e.g., '/profile.jpg') once uploaded to the public folder. */}
               <img 
                 src="/profile.jpg"
-                alt="Kiran - Modernization Engineer" 
+                alt="Kiran Kumar - Modernization Engineer" 
                 className="object-cover w-full h-full"
                 referrerPolicy="no-referrer"
               />
