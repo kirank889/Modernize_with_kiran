@@ -94,7 +94,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
             </div>
             <div className="p-6 relative bg-slate-900">
-              <h3 className="text-xl font-bold text-white mb-1">Kiran</h3>
+              <h3 className="text-xl font-bold text-white mb-1">Kiran Kumar</h3>
               <div className="text-teal-400 font-medium mb-4">Modernization Engineer</div>
               <div className="flex items-center gap-2 mb-6">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
