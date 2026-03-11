@@ -75,7 +75,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="relative hidden lg:flex justify-end items-center"
+          className="relative flex justify-center lg:justify-end items-center mt-12 lg:mt-0"
         >
           <div className="relative w-80 rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl shadow-teal-500/10">
             <div className="aspect-[4/5] overflow-hidden bg-slate-800 relative">
